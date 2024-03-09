@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Producto</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Mi Tienda</h1>
+  </header>
+  <main>
+    <section class="producto-detalle">
+      <img src="${product.image}" alt="${product.name}">
+      <h1>${product.name}</h1>
+      <p>${product.description}</p>
+      <span class="precio">€${product.price}</span>
+      <button type="button">Añadir al carrito</button>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2024</p>
+  </footer>
+</body>
+</html>

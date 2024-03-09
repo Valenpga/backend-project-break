@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crear nuevo producto</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Mi Tienda</h1>
+  </header>
+  <main>
+    <section class="producto-nuevo">
+      <h2>Crear un nuevo producto</h2>
+      <form action="/productos" method="POST">
+        <input type="text" name="name" placeholder="Nombre del producto">
+        <input type="text" name="description" placeholder="Descripción del producto">
+        <input type="text" name="image" placeholder="URL de la imagen">
+        <input type="number" name="price" placeholder="Precio del producto">
+        <button type="submit">Crear producto</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2024</p>
+  </footer>
+</body>
+</html>

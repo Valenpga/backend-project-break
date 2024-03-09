@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editar producto</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Mi Tienda</h1>
+  </header>
+  <main>
+    <section class="producto-editar">
+      <h2>Editar producto</h2>
+      <form action="/productos/[productId]" method="PUT">
+        <input type="text" name="name" value="<span class="math-inline">\{product\.name\}"\>
+<input type\="text" name\="description" value\="</span>{product.description}">
+        <input type="text" name="image" value="${product.image}">
